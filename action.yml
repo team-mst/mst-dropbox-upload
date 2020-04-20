@@ -1,0 +1,19 @@
+name: 'MST dropbox file uploader'
+description: 'This action uploads a file dropbox.'
+author: 'Zeljko Romanovic MST'
+inputs:
+  dropbox-api-key:
+    description: dropbox API Key. This parameter should be stored in the GitHub secrets.
+    required: true
+  dropbox-source-file-path:
+    description: Path of a file which needs to be uploaded.
+    required: true
+  dropbox-destination-file-path:
+    description: Path of a destination folder.
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'file-plus'
+  color: 'green'
