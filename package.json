@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/team-mst/mst-dropbox-upload#readme",
   "devDependencies": {
-    "@actions/core": "^1.2.3",
+    "@actions/core": "^1.2.6",
     "@types/node": "^13.13.0",
     "ncc": "^0.3.6",
     "nodemon": "^2.0.3",
